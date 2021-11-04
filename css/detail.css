@@ -1,0 +1,106 @@
+body{
+    color: #433B3C;
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+    /* background-image: url("../background/img01.png");
+    background-size: cover;
+    background-color:rgba(255,255,255,0.5);
+    background-blend-mode:lighten; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    vertical-align:top;
+}
+
+.wrap{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 2vw;
+    padding: 3vh;
+    background-color: #fff;
+}
+
+.content{
+    letter-spacing: 0.2vw;
+    line-height: 6vh;
+}
+
+.img_url img{
+    width: 100%;
+}
+
+.title{
+    margin: 3vw 0;
+    font-size: 2vw;
+}
+
+.back{
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 5vh;
+}
+
+.back a{
+    padding: 2vw;
+    border-radius: 50%;
+    background-color: grey;
+    color: #fff;
+}
+
+.cart-btn{
+    background-color: orange;
+    color: #fff;
+    margin: 2vw 0;
+    padding: 10px;
+    border: none;
+}
+
+.cart-btn:hover{
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.favo-btn01{
+    background-color: grey;
+    color: #000;
+    padding: 10px;
+}
+
+.favo-btn01:hover{
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+}
+
+.favo-btn02{
+    background-color: tomato;
+    color: #fff;
+    padding: 10px;
+    border: none;
+}
+
+.favo-btn02:hover{
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.product_url{
+    margin: 2vw;
+    padding: 1vw;
+    background-color: grey;
+    color: #fff;
+}
+
+.product_url a{
+    color: #fff;
+}

@@ -1,0 +1,167 @@
+body{
+    color: #433B3C;
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+    /* background-image: url("../background/img01.png");
+    background-size: cover;
+    background-color:rgba(255,255,255,0.5);
+    background-blend-mode:lighten; */
+}
+
+a{
+    text-decoration: none;
+    color: #433B3C;
+}
+
+img{
+    vertical-align:top;
+}
+
+.wrapper{
+    width: 65%;
+    margin: 0 auto;
+}
+
+/* ヘッダー */
+.header{
+    align-items: center;
+    /* background-image: url(../background/img02.png);
+    background-size: cover; */
+    color: #000;
+    background-color: #fff;
+}
+
+.header-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1vw 0;
+}
+
+.register{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-name{
+    font-size: 2vw;
+    font-weight: bold;
+    padding: 0.8vw;
+    margin: 0.3vw;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.mypage a{
+    color: #fff;
+    padding: 0.8vw;
+    margin: 0.3vw 1vw;
+    border-radius: 1vw;
+    background-color: #FAA401;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px 1px rgba(104, 104, 104, 0.2);
+}
+
+.login{
+    margin: 0 2vw;
+}
+
+.logout a{
+    color: #433B3C;
+    padding: 0.8vw;
+    margin: 0.3vw 1vw;
+    border-radius: 1vw;
+    background-color: #EAEAEA;
+    font-weight: bold;
+}
+
+/*
+
+メインビジュアル 
+
+*/
+.container{
+    display: flex;
+}
+
+.box{
+    width: 70%;
+    margin: 1vh;
+}
+
+h1{
+    align-items: center;
+    margin: 3vh 0;
+    padding: 1vw;
+    font-size: 4vw;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+h2{
+    width: 95%;
+    font-size: 1.5vw;
+    padding: 1vw;
+    background-color: #fff;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vh 0;
+}
+
+.item{
+    width: 29%;
+    padding: 0.5vw;
+    margin: 0.3vw;
+    background-color: #fff;
+}
+
+.img_url img{
+    width: 100%;
+    height: 70%;
+}
+
+.title{
+    padding: 1vw 0;
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+    line-height: 4vh;
+}
+
+/* 
+
+サイドコンテンツ
+
+*/
+.side{
+    width: 30%;
+    margin: 1vh;
+    background-color: #fff;
+}
+
+.side-box{
+    margin: 3vw;
+}
+
+.story-title{
+    font-size: 1.2vw;
+    padding: 1vw;
+    font-weight: bold;
+    background-color: #DDDDDD;
+}
+
+.side-contents{
+    height: 100%;
+}
+
+.list{
+    font-size: 1vw;
+    margin-top: 5vh;
+}
+

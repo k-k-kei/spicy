@@ -1,0 +1,42 @@
+body{
+    background-image: url("../background/img01.png");
+    background-size: cover;
+    background-color:rgba(255,255,255,0.5);
+    background-blend-mode:lighten;
+}
+
+.wrap{
+    width: 100%;
+}
+
+.box{
+    width: 40%;
+    margin: 10vw auto;
+    padding: 1vw;
+    text-align: center;
+    background-image: url(../background/img02.png);
+    background-size: cover;
+}
+
+.title{
+    font-size: 1.5vw;
+    margin: 1vw;
+}
+
+.user_id{
+    width: 60%;
+    margin: 1vw;
+}
+
+.user_pw{
+    width: 60%;
+    margin: 1vw;
+}
+
+.login-btn{
+    background-color: #143F70;
+    color: #fff;
+    border: none;
+    padding: 0.5vw 1vw;
+    margin: 1vw;
+}
